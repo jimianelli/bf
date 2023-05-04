@@ -1,0 +1,71 @@
+# Styr      																																							
+1978																																							
+# endyr     																																							
+2022																																							
+# RecAge      																																							
+1																																							
+# Terminal  Age   																																							
+15																																							
+#++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++       																																							
+# Recruitment variability ~cv 																																							
+0.9																																							
+#       																																							
+# Prior on  Fishing Mortality rate																																							
+# mean, CV    																																							
+0.3																																							
+.5																																							
+# Regularizing penalty on F (~CV)                       																																							
+0.6																																							
+#                         																																							
+# Estimate  M in  this  phase (negative means just  fix at  prior)    																																							
+-5																																							
+# Prior on  natural mortality rate                																																							
+# mean, CV                      																																							
+0.3																																							
+0.1																																							
+#                         																																							
+# Estimate  selectivity parameters  in  this  phase (negative means just  fix at  prior mean)																																							
+-3																																							
+# Prior on  selectivity slope,  CV                  																																							
+0.6																																							
+0.2																																							
+# Prior on  selectivity age@50% selected, CV              																																							
+-4																																							
+0.25																																							
+#                           																																							
+# Estimate  q in  this  phase (negative means just  fix at  prior)      																																							
+-2																																							
+# Prior on  q,  cv                    																																							
+1																																							
+0.1																																							
+# Estimate  random  walk  in  index catchability                																																							
+4																																							
+# Random  walk  penalty (like cv  in  how much  they  can change  within  a year)																																							
+0.03																																							
+# Number  of  years to  project into  the future....            																																							
+10																																							
+# Fishing mortality for projection  (as a fraction  of  M)          																																							
+0.75																																							
+#++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++                                             																																							
+# avg wt  at  age...                                      																																							
+0.084881666	0.195868126	0.313762788	0.459295544	0.588623602	0.697818331	0.796798739	0.914861263	1.056957011	1.147231476	1.290106451	1.387917889	1.43166676	1.407002719	1.522866931																									
+# Maturity at age																																							
+0	0.008	0.289	0.641	0.842	0.901	0.947	0.963	0.97	1	1	1	1	1	1																									
+# Catch in  weight                                        																																							
+979.431	935.714	958.28	973.502	955.964	981.45	1092.055	1139.676	1141.993	859.416	1228.721	1229.6	1455.193	1195.66393	1390.30916	1326.60896	1329.37306	1264.24689	1192.78109	1124.43305	1102.15914	989.68031	1132.70985	1387.19702	1480.77611	1490.779227	1480.551669	1483.021809	1488.031045	1354.501789	990.578068	810.784346	810.1859078	1199.040625	1205.221865	1270.770468	1297.422339	1321.583785	1352.680796	1359.182092	1379.287269	1409.337138	1367.22904	1376.257582	1110
+# CV  in  catch weight                                      																																							
+0.03	0.03	0.03	0.03	0.03	0.03	0.03	0.03	0.03	0.03	0.03	0.03	0.03	0.03	0.03	0.03	0.03	0.03	0.03	0.03	0.03	0.03	0.03	0.03	0.03	0.03	0.03	0.03	0.03	0.03	0.03	0.03	0.03	0.03	0.03	0.03	0.03	0.03	0.03	0.03	0.03	0.03	0.03	0.03	0.03
+# Number  of  years catch-age data  available                                 																																							
+0
+# Catch-age years                                         																																							
+
+# Catch-age values                                          																																							
+# Catch at  age matrix  1978-2017                                   																																							
+# Number  of  survey  or  CPUE  observations                                  																																							
+0																																							
+# Month survey/cpue happens                                             																																							
+7																																							
+# SUrvey  years                                         																																							
+# Survey  values  1000                                        																																							
+# Survey  CV                                          																																							
+																																							

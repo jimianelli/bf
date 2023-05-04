@@ -1,0 +1,152 @@
+#if !defined(_bf_)
+#  define _bf_
+
+class model_data : public ad_comm{
+  data_int styr;
+  data_int endyr;
+  data_int recage;
+  data_int trmage;
+  dvector age_vector;
+  data_number sigmar_in;
+  double sigmarsq_in;
+  data_number F_prior_mu;
+  data_number F_prior_sd;
+  double F_prior_var;
+  data_number F_regularity_sd;
+  double F_regularity_pen;
+  data_int phase_M;
+  data_number M_prior_mu;
+  data_number M_prior_sd;
+  double M_prior_var;
+  data_int phase_sel;
+  int phase_sel2;
+  data_number slp_prior_mu;
+  data_number slp_prior_sd;
+  double slp_prior_var;
+  data_number a50_prior_mu;
+  data_number a50_prior_sd;
+  double a50_prior_var;
+  data_int phase_q;
+  data_number q_prior_mu;
+  data_number q_prior_sd;
+  double q_prior_var;
+  data_int phase_q_rw;
+  data_number q_rw_sd;
+  double q_rw_var;
+  data_int n_fut_yrs;
+  data_number fut_expl_M;
+  int styr_fut;
+  int endyr_fut;
+  data_vector wt;
+  data_vector maturity;
+  data_vector obs_catch;
+  data_vector obs_catch_cv;
+  data_int nyrs_c_age;
+  double offset;
+  data_ivector yrs_c_age;
+  data_matrix obs_c_age;
+  data_int nyrs_trend;
+  data_number trend_mo;
+  double trend_seas;
+  data_ivector yrs_trend;
+  data_vector obs_trend;
+  data_vector obs_trend_cv;
+  ~model_data();
+  model_data(int argc,char * argv[]);
+  friend class model_parameters;
+};
+
+class model_parameters : public model_data ,
+  public function_minimizer
+{
+public:
+  ~model_parameters();
+  void preliminary_calculations(void);
+  void set_runtime(void);
+  static int mc_phase(void)
+  {
+    return initial_params::mc_phase;
+  }
+  static int mceval_phase(void)
+  {
+    return initial_params::mceval_phase;
+  }
+  static int hessian_phase(void)
+  {
+    return initial_params::in_hessian_phase;
+  }
+  static int sd_phase(void)
+  {
+    return initial_params::sd_phase;
+  }
+  static int current_phase(void)
+  {
+    return initial_params::current_phase;
+  }
+  static int last_phase(void)
+  {
+    return (initial_params::current_phase
+      >=initial_params::max_number_phases);
+  }
+  static prevariable& current_feval(void)
+  {
+    return *objective_function_value::pobjfun;
+  }
+private:
+  dvariable adromb(dvariable(model_parameters::*f)(const dvariable&), double a, double b, int ns)
+  {
+    using namespace std::placeholders;
+    _func func = std::bind(f, this, _1);
+    return function_minimizer::adromb(func, a, b, ns);
+  }
+  ivector integer_control_flags;
+  dvector double_control_flags;
+  param_init_number lnR;
+  param_init_bounded_number sel_a50;
+  param_init_bounded_number sel_slp;
+  param_init_bounded_number M;
+  param_init_bounded_vector F_annual;
+  param_init_bounded_dev_vector init_dev;
+  param_init_bounded_number catchability;
+  param_init_bounded_dev_vector q_rw;
+  param_init_bounded_dev_vector rec_dev;
+  param_init_bounded_dev_vector rec_dev_fut;
+  param_number sigmarsq;
+  param_number sigmar;
+  param_vector sel;
+  param_vector pred_catch;
+  param_matrix pred_c_age;
+  param_matrix N;
+  param_matrix C;
+  param_matrix F;
+  param_matrix Z;
+  param_matrix S;
+  param_matrix N_fut;
+  param_matrix C_fut;
+  param_vector pred_catch_fut;
+  param_vector pred_trend;
+  param_stddev_vector B;
+  param_stddev_vector Fmort;
+  param_stddev_vector SSB;
+  param_stddev_vector rec;
+  param_stddev_vector B_fut;
+  param_vector prior;
+  param_vector like;
+  param_number prior_function_value;
+  param_number likelihood_function_value;
+  objective_function_value obj_fun;
+public:
+  virtual void userfunction(void);
+  virtual void report(const dvector& gradients);
+  virtual void final_calcs(void);
+  model_parameters(int sz,int argc, char * argv[]);
+  virtual void initializationfunction(void);
+  void Compute_Mortality(void);
+  void Compute_N(void);
+  void Compute_Obj_Fun(void);
+  void do_output_vars(void);
+  void Future_projections(void);
+  void write_R(void);
+
+};
+#endif

@@ -1,0 +1,298 @@
+
+Initial statistics: 1 variables; iteration 0; function evaluation 0; phase 1
+Function value 7.9251468e+04; maximum gradient component mag -5.0459e+04
+
+ - final statistics:
+1 variables; iteration 4; function evaluation 10
+Function value 3.4712e+04; maximum gradient component mag -4.7124e-08
+Exit code = 1;  converg criter 1.0000e-04
+
+Initial statistics: 105 variables; iteration 0; function evaluation 0; phase 2
+Function value 3.4711615e+04; maximum gradient component mag -1.6185e+04
+
+Intermediate statistics: 105 variables; iteration 20; function evaluation 29; phase 2
+Function value 2.3152651e+04; maximum gradient component mag 1.4763e+04
+105 variables; iteration 40; function evaluation 52; phase 2
+Function value 2.2873130e+04; maximum gradient component mag 1.2481e+04
+105 variables; iteration 60; function evaluation 75; phase 2
+Function value 1.5368756e+04; maximum gradient component mag 5.9014e+03
+105 variables; iteration 80; function evaluation 97; phase 2
+Function value 1.3283345e+04; maximum gradient component mag 9.4161e+03
+105 variables; iteration 100; function evaluation 124; phase 2
+Function value 1.0245613e+04; maximum gradient component mag 6.9529e+03
+105 variables; iteration 120; function evaluation 152; phase 2
+Function value 7.4681600e+03; maximum gradient component mag 1.6508e+03
+105 variables; iteration 140; function evaluation 172; phase 2
+Function value 6.4561095e+03; maximum gradient component mag 1.6340e+03
+105 variables; iteration 160; function evaluation 193; phase 2
+Function value 6.2513533e+03; maximum gradient component mag -3.8997e+02
+105 variables; iteration 180; function evaluation 213; phase 2
+Function value 6.1797851e+03; maximum gradient component mag -1.9151e+02
+105 variables; iteration 200; function evaluation 233; phase 2
+Function value 6.1411233e+03; maximum gradient component mag -8.9425e+01
+105 variables; iteration 220; function evaluation 253; phase 2
+Function value 6.1354345e+03; maximum gradient component mag -4.5206e+01
+105 variables; iteration 240; function evaluation 273; phase 2
+Function value 6.1330431e+03; maximum gradient component mag -2.8681e+01
+105 variables; iteration 260; function evaluation 293; phase 2
+Function value 6.1309732e+03; maximum gradient component mag -1.3193e+02
+105 variables; iteration 280; function evaluation 313; phase 2
+Function value 6.1288459e+03; maximum gradient component mag -4.8139e+01
+105 variables; iteration 300; function evaluation 333; phase 2
+Function value 6.1284328e+03; maximum gradient component mag -2.4620e+01
+105 variables; iteration 320; function evaluation 353; phase 2
+Function value 6.1282922e+03; maximum gradient component mag -2.5876e+01
+105 variables; iteration 340; function evaluation 373; phase 2
+Function value 6.1281803e+03; maximum gradient component mag -1.7598e+01
+105 variables; iteration 360; function evaluation 393; phase 2
+Function value 6.1281208e+03; maximum gradient component mag 5.1081e+00
+105 variables; iteration 380; function evaluation 413; phase 2
+Function value 6.1281140e+03; maximum gradient component mag 9.5859e-01
+105 variables; iteration 400; function evaluation 433; phase 2
+Function value 6.1281129e+03; maximum gradient component mag -2.7489e-01
+105 variables; iteration 420; function evaluation 453; phase 2
+Function value 6.1281129e+03; maximum gradient component mag -1.5521e-01
+105 variables; iteration 440; function evaluation 473; phase 2
+Function value 6.1281129e+03; maximum gradient component mag 3.3299e-02
+105 variables; iteration 460; function evaluation 493; phase 2
+Function value 6.1281129e+03; maximum gradient component mag 1.1317e-02
+105 variables; iteration 480; function evaluation 513; phase 2
+Function value 6.1281129e+03; maximum gradient component mag -3.6058e-03
+
+ - final statistics:
+105 variables; iteration 500; function evaluation 533
+Function value 6.1281e+03; maximum gradient component mag 7.7366e-05
+Exit code = 1;  converg criter 1.0000e-04
+
+Initial statistics: 106 variables; iteration 0; function evaluation 0; phase 3
+Function value 6.1281129e+03; maximum gradient component mag 6.7883e+01
+
+Intermediate statistics: 106 variables; iteration 20; function evaluation 27; phase 3
+Function value 6.1166037e+03; maximum gradient component mag 1.7943e+02
+106 variables; iteration 40; function evaluation 47; phase 3
+Function value 6.1160832e+03; maximum gradient component mag 1.3833e+02
+106 variables; iteration 60; function evaluation 77; phase 3
+Function value 6.1144762e+03; maximum gradient component mag -6.6842e+01
+106 variables; iteration 80; function evaluation 103; phase 3
+Function value 6.1141428e+03; maximum gradient component mag -4.4910e+01
+106 variables; iteration 100; function evaluation 133; phase 3
+Function value 6.1139676e+03; maximum gradient component mag -2.7061e+01
+106 variables; iteration 120; function evaluation 166; phase 3
+Function value 6.1138548e+03; maximum gradient component mag -5.4898e+00
+
+ - final statistics:
+106 variables; iteration 137; function evaluation 183
+Function value 6.1138e+03; maximum gradient component mag -5.1910e-05
+Exit code = 1;  converg criter 1.0000e-04
+
+Initial statistics: 147 variables; iteration 0; function evaluation 0; phase 4
+Function value 6.1223523e+03; maximum gradient component mag -9.8770e+02
+
+Intermediate statistics: 147 variables; iteration 20; function evaluation 26; phase 4
+Function value 6.0957205e+03; maximum gradient component mag -4.6404e+02
+147 variables; iteration 40; function evaluation 46; phase 4
+Function value 6.0922481e+03; maximum gradient component mag -5.2119e+02
+147 variables; iteration 60; function evaluation 70; phase 4
+Function value 6.0912923e+03; maximum gradient component mag -5.1738e+02
+147 variables; iteration 80; function evaluation 90; phase 4
+Function value 6.0872722e+03; maximum gradient component mag -1.1006e+02
+147 variables; iteration 100; function evaluation 111; phase 4
+Function value 6.0866744e+03; maximum gradient component mag -1.4021e+02
+147 variables; iteration 120; function evaluation 138; phase 4
+Function value 6.0862145e+03; maximum gradient component mag -3.7616e+01
+147 variables; iteration 140; function evaluation 167; phase 4
+Function value 6.0860557e+03; maximum gradient component mag -1.6719e+01
+147 variables; iteration 160; function evaluation 200; phase 4
+Function value 6.0859027e+03; maximum gradient component mag 1.8123e+01
+
+ - final statistics:
+147 variables; iteration 178; function evaluation 218
+Function value 6.0859e+03; maximum gradient component mag -7.3867e-05
+Exit code = 1;  converg criter 1.0000e-04
+
+Initial statistics: 159 variables; iteration 0; function evaluation 0; phase 5
+Function value 6.2906521e+03; maximum gradient component mag 5.4306e+02
+
+Intermediate statistics: 159 variables; iteration 20; function evaluation 24; phase 5
+Function value 6.2208204e+03; maximum gradient component mag 6.2217e+02
+159 variables; iteration 40; function evaluation 45; phase 5
+Function value 6.2060239e+03; maximum gradient component mag 6.1696e+02
+159 variables; iteration 60; function evaluation 67; phase 5
+Function value 6.2025128e+03; maximum gradient component mag 5.7826e+02
+159 variables; iteration 80; function evaluation 87; phase 5
+Function value 6.1835385e+03; maximum gradient component mag 2.7564e+02
+159 variables; iteration 100; function evaluation 117; phase 5
+Function value 6.1742292e+03; maximum gradient component mag 1.7337e+02
+159 variables; iteration 120; function evaluation 143; phase 5
+Function value 6.1698298e+03; maximum gradient component mag 2.9674e+02
+159 variables; iteration 140; function evaluation 171; phase 5
+Function value 6.1674413e+03; maximum gradient component mag 1.5807e+02
+159 variables; iteration 160; function evaluation 202; phase 5
+Function value 6.1640088e+03; maximum gradient component mag -1.2260e+02
+159 variables; iteration 180; function evaluation 222; phase 5
+Function value 6.1623702e+03; maximum gradient component mag 4.9964e+00
+159 variables; iteration 200; function evaluation 242; phase 5
+Function value 6.1623672e+03; maximum gradient component mag -1.6274e-02
+Estimating row 1 out of 159 for hessian
+Estimating row 2 out of 159 for hessian
+Estimating row 3 out of 159 for hessian
+Estimating row 4 out of 159 for hessian
+Estimating row 5 out of 159 for hessian
+Estimating row 6 out of 159 for hessian
+Estimating row 7 out of 159 for hessian
+Estimating row 8 out of 159 for hessian
+Estimating row 9 out of 159 for hessian
+Estimating row 10 out of 159 for hessian
+Estimating row 11 out of 159 for hessian
+Estimating row 12 out of 159 for hessian
+Estimating row 13 out of 159 for hessian
+Estimating row 14 out of 159 for hessian
+Estimating row 15 out of 159 for hessian
+Estimating row 16 out of 159 for hessian
+Estimating row 17 out of 159 for hessian
+Estimating row 18 out of 159 for hessian
+Estimating row 19 out of 159 for hessian
+Estimating row 20 out of 159 for hessian
+Estimating row 21 out of 159 for hessian
+Estimating row 22 out of 159 for hessian
+Estimating row 23 out of 159 for hessian
+Estimating row 24 out of 159 for hessian
+Estimating row 25 out of 159 for hessian
+Estimating row 26 out of 159 for hessian
+Estimating row 27 out of 159 for hessian
+Estimating row 28 out of 159 for hessian
+Estimating row 29 out of 159 for hessian
+Estimating row 30 out of 159 for hessian
+Estimating row 31 out of 159 for hessian
+Estimating row 32 out of 159 for hessian
+Estimating row 33 out of 159 for hessian
+Estimating row 34 out of 159 for hessian
+Estimating row 35 out of 159 for hessian
+Estimating row 36 out of 159 for hessian
+Estimating row 37 out of 159 for hessian
+Estimating row 38 out of 159 for hessian
+Estimating row 39 out of 159 for hessian
+Estimating row 40 out of 159 for hessian
+Estimating row 41 out of 159 for hessian
+Estimating row 42 out of 159 for hessian
+Estimating row 43 out of 159 for hessian
+Estimating row 44 out of 159 for hessian
+Estimating row 45 out of 159 for hessian
+Estimating row 46 out of 159 for hessian
+Estimating row 47 out of 159 for hessian
+Estimating row 48 out of 159 for hessian
+Estimating row 49 out of 159 for hessian
+Estimating row 50 out of 159 for hessian
+Estimating row 51 out of 159 for hessian
+Estimating row 52 out of 159 for hessian
+Estimating row 53 out of 159 for hessian
+Estimating row 54 out of 159 for hessian
+Estimating row 55 out of 159 for hessian
+Estimating row 56 out of 159 for hessian
+Estimating row 57 out of 159 for hessian
+Estimating row 58 out of 159 for hessian
+Estimating row 59 out of 159 for hessian
+Estimating row 60 out of 159 for hessian
+Estimating row 61 out of 159 for hessian
+Estimating row 62 out of 159 for hessian
+Estimating row 63 out of 159 for hessian
+Estimating row 64 out of 159 for hessian
+Estimating row 65 out of 159 for hessian
+Estimating row 66 out of 159 for hessian
+Estimating row 67 out of 159 for hessian
+Estimating row 68 out of 159 for hessian
+Estimating row 69 out of 159 for hessian
+Estimating row 70 out of 159 for hessian
+Estimating row 71 out of 159 for hessian
+Estimating row 72 out of 159 for hessian
+Estimating row 73 out of 159 for hessian
+Estimating row 74 out of 159 for hessian
+Estimating row 75 out of 159 for hessian
+Estimating row 76 out of 159 for hessian
+Estimating row 77 out of 159 for hessian
+Estimating row 78 out of 159 for hessian
+Estimating row 79 out of 159 for hessian
+Estimating row 80 out of 159 for hessian
+Estimating row 81 out of 159 for hessian
+Estimating row 82 out of 159 for hessian
+Estimating row 83 out of 159 for hessian
+Estimating row 84 out of 159 for hessian
+Estimating row 85 out of 159 for hessian
+Estimating row 86 out of 159 for hessian
+Estimating row 87 out of 159 for hessian
+Estimating row 88 out of 159 for hessian
+Estimating row 89 out of 159 for hessian
+Estimating row 90 out of 159 for hessian
+Estimating row 91 out of 159 for hessian
+Estimating row 92 out of 159 for hessian
+Estimating row 93 out of 159 for hessian
+Estimating row 94 out of 159 for hessian
+Estimating row 95 out of 159 for hessian
+Estimating row 96 out of 159 for hessian
+Estimating row 97 out of 159 for hessian
+Estimating row 98 out of 159 for hessian
+Estimating row 99 out of 159 for hessian
+Estimating row 100 out of 159 for hessian
+Estimating row 101 out of 159 for hessian
+Estimating row 102 out of 159 for hessian
+Estimating row 103 out of 159 for hessian
+Estimating row 104 out of 159 for hessian
+Estimating row 105 out of 159 for hessian
+Estimating row 106 out of 159 for hessian
+Estimating row 107 out of 159 for hessian
+Estimating row 108 out of 159 for hessian
+Estimating row 109 out of 159 for hessian
+Estimating row 110 out of 159 for hessian
+Estimating row 111 out of 159 for hessian
+Estimating row 112 out of 159 for hessian
+Estimating row 113 out of 159 for hessian
+Estimating row 114 out of 159 for hessian
+Estimating row 115 out of 159 for hessian
+Estimating row 116 out of 159 for hessian
+Estimating row 117 out of 159 for hessian
+Estimating row 118 out of 159 for hessian
+Estimating row 119 out of 159 for hessian
+Estimating row 120 out of 159 for hessian
+Estimating row 121 out of 159 for hessian
+Estimating row 122 out of 159 for hessian
+Estimating row 123 out of 159 for hessian
+Estimating row 124 out of 159 for hessian
+Estimating row 125 out of 159 for hessian
+Estimating row 126 out of 159 for hessian
+Estimating row 127 out of 159 for hessian
+Estimating row 128 out of 159 for hessian
+Estimating row 129 out of 159 for hessian
+Estimating row 130 out of 159 for hessian
+Estimating row 131 out of 159 for hessian
+Estimating row 132 out of 159 for hessian
+Estimating row 133 out of 159 for hessian
+Estimating row 134 out of 159 for hessian
+Estimating row 135 out of 159 for hessian
+Estimating row 136 out of 159 for hessian
+Estimating row 137 out of 159 for hessian
+Estimating row 138 out of 159 for hessian
+Estimating row 139 out of 159 for hessian
+Estimating row 140 out of 159 for hessian
+Estimating row 141 out of 159 for hessian
+Estimating row 142 out of 159 for hessian
+Estimating row 143 out of 159 for hessian
+Estimating row 144 out of 159 for hessian
+Estimating row 145 out of 159 for hessian
+Estimating row 146 out of 159 for hessian
+Estimating row 147 out of 159 for hessian
+Estimating row 148 out of 159 for hessian
+Estimating row 149 out of 159 for hessian
+Estimating row 150 out of 159 for hessian
+Estimating row 151 out of 159 for hessian
+Estimating row 152 out of 159 for hessian
+Estimating row 153 out of 159 for hessian
+Estimating row 154 out of 159 for hessian
+Estimating row 155 out of 159 for hessian
+Estimating row 156 out of 159 for hessian
+Estimating row 157 out of 159 for hessian
+Estimating row 158 out of 159 for hessian
+Estimating row 159 out of 159 for hessian
+size of file gradfil1.tmp = 0
+size of file gradfil2.tmp = 0
+size of file varssave.tmp = 0
+size of file cmpdiff.tmp = 0
